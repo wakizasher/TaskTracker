@@ -55,32 +55,32 @@ All tasks are stored in a `task.json` file in the same directory as the script. 
 ## Task JSON Structure
 
 Each task is stored with the following information:
-
-{
-    "id": 1,
-    "task": "Task description",
-    "status": "todo",
-    "createdAt": "20/05/2025",
-    "updatedAt": "20/05/2025"
-}
+    
+    {
+        "id": 1,
+        "task": "Task description",
+        "status": "todo",
+        "createdAt": "20/05/2025",
+        "updatedAt": "20/05/2025"
+    }
 
 ## Examples 
 
 ### Adding a Task
-
-Enter the option number: 2
-Please enter your task: Complete the project documentation
+```
+Enter the option number: 2 \n
+Please enter your task: Complete the project documentation 
 Please enter your status (todo, in-progress, done): todo
-Task added successfully (ID: 1)
-
+Please enter your task: quit
+```
 ### Updating a Task 
-
+```
 Enter the option number: 3
 Please enter task ID that you want to update (press 0 to quit): 1
 Enter new task description (or press enter to skip): 
 Enter new status for the task (or press enter to skip): in-progress
-Task with 1 updated successfully
-
+Please enter task ID that you want to update (press 0 to quit): 0
+```
 ### Viewing Tasks
 
 Enter the option number: 1
